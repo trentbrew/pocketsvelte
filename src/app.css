@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProBold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProDeBold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProExLight.otf") format("opentype");
+  font-weight: 200; /* Extra Light */
+}
+
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProHeavy.otf") format("opentype");
+  font-weight: 800; /* Heavy */
+}
+
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProLight.otf") format("opentype");
+  font-weight: 300; /* Light */
+}
+
+/* Import AOTFShinGoProMedium font */
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProMedium.otf") format("opentype");
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: "ShinGo";
+  src: url("$lib/fonts/AOTFShinGoProRegular.otf") format("opentype");
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "ShinGo" !important;
+  font-weight: bold;
+}
+
+/* Tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+
+.fullscreen {
+  @apply h-screen w-screen;
+}
+
+.center {
+  @apply flex items-center justify-center;
+}
+
+.horizontal {
+  @apply flex items-center;
+}
+
+.vertical {
+  @apply flex justify-center;
+}
