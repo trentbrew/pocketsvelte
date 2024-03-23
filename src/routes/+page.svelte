@@ -11,7 +11,10 @@
 </script>
 
 <main class="h-screen w-screen flex flex-col justify-center items-center">
-  <img class="mb-6" width="100" src="{logo}" alt="logo" />
-  <h1 class="text-3xl font-bold mb-2 shingo">Welcome to Docket.tv</h1>
-  <p>The TV Guide for independent broadcasting</p>
+  <img class="mb-12" width="100" src="{logo}" alt="logo" />
+  <h1 class="text-3xl font-bold mb-2 shingo">Welcome! You're on your way.</h1>
+  <p>
+    This boilerplate is powered by SvelteKit, TailwindCSS, DaisyUI, and
+    PocketBase
+  </p>
 </main>
